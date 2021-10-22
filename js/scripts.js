@@ -27,6 +27,7 @@ $(document).ready(function() {
       $('#java').show();
       $('#language').hide();
   }
+
     
   }); 
 });

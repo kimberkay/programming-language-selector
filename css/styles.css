@@ -1,9 +1,12 @@
 
-    #csharp, #python, #swift, #java {
+    #csharp, #python, #swift, #java #resubmit {
       display: none;
     }
 
-  
+     #csharp, #python, #swift, #java {
+        cursor: pointer;
+        color: darkgray
+      }
 
       .body {
       max-width: 960px;
@@ -12,8 +15,6 @@
       border: 3px solid #73AD21;
   }
 
-    h1 {
-      
-    }
+   
 
    
