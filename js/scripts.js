@@ -14,14 +14,18 @@ $(document).ready(function() {
     
 
     if (thirdQuestion === "traditional" && (fourthQuestion === "webdev")) {
-      $('#csharp').slideDown(); 
+      $('#csharp').fadeToggle();
+      $('#language').hide(); 
     } else if (thirdQuestion === "startup" && (fourthQuestion === "webdev")) {
-      $('#python').show();
+      $('#python').fadeToggle();
+      $('#language').hide();
     } else if (fourthQuestion === "mobile" && (fifthQuestion=== "ios")){
-      $('#swift').show();
+      $('#swift').fadeToggle();
+      $('#language').hide();
     } 
       else {
       $('#java').show();
+      $('#language').hide();
   }
     
   }); 
