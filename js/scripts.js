@@ -24,12 +24,14 @@ $(document).ready(function() {
       $('#language').hide();
     } 
       else {
-      $('#java').show();
+      $('#java').fadeToggle();
       $('#language').hide();
   }
 
+
     
-  }); 
+  }
+  ); 
 });
 
 

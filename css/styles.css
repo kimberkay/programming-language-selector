@@ -1,11 +1,12 @@
 
-    #csharp, #python, #swift, #java #resubmit {
+    #csharp, #python, #swift, #java, #resubmit {
       display: none;
     }
 
      #csharp, #python, #swift, #java {
         cursor: pointer;
-        color: darkgray
+        color: darkgray;
+        text-align: center;
       }
 
       .body {
@@ -15,6 +16,6 @@
       border: 3px solid #73AD21;
   }
 
-   
+  
 
    
