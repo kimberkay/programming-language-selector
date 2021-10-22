@@ -1,6 +1,8 @@
 $(document).ready(function() {
-  const firstquestion = $("#mobile-web").val();
-  
+  $(form#language).submit(function(event) {
+    event.preventDefault();
+  }
+
 
   
   
