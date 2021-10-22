@@ -1,9 +1,13 @@
 $(document).ready(function() {
-  const  = parseInt(prompt("How old are you?"));
+  const firstquestion = $("#mobile-web").val();
 
-  if ( >= 21) {
-    $('#drinks').show();
+  if (firstquestion=== "web") {
+    $("web-path").show();
   } else {
-    $('#under-21').show();
+    $("mobile-path").show();
   }
-});
+}); 
+
+
+
+
