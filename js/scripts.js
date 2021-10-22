@@ -5,6 +5,7 @@ $(document).ready(function() {
     $('#python').hide();
     $('#swift').hide();
     $('#java').hide();
+
     const firstQuestion= $("input:radio[name=prefer1]:checked").val();
     const secondQuestion= $("input:radio[name=prefer2]:checked").val();
     const thirdQuestion= $("input:radio[name=prefer3]:checked").val();
@@ -13,7 +14,7 @@ $(document).ready(function() {
     
 
     if (thirdQuestion === "traditional" && (fourthQuestion === "webdev")) {
-      $('#csharp').show(); 
+      $('#csharp').slideDown(); 
     } else if (thirdQuestion === "startup" && (fourthQuestion === "webdev")) {
       $('#python').show();
     } else if (fourthQuestion === "mobile" && (fifthQuestion=== "ios")){
@@ -23,7 +24,6 @@ $(document).ready(function() {
       $('#java').show();
   }
     
-
   }); 
 });
 
