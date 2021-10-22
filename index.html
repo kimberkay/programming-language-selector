@@ -16,32 +16,68 @@
     <form id="language">
       <br>
       <br>
-      <div id="firstquestion">
-      <p>Where do you want to start? Please select your first interest!</p> 
-      <select id="mobile-web">
-        <option value="web">Web Development</option>
-        <option value="mobile">Mobile Apps</o
-          option>
-      </select>
+      <div class="firstquestion">
+        <p>I prefer:</p>
+        <label>
+          <input type="radio" name="prefer1" value="dogs" checked>
+          Dogs
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="perfer1" value="cats">
+          cats
+        </label>
       </div>
       <br>
       <br>
-      <div id="web-path">
+      <div class="firstquestion">
+        <p>I would rather eat:</p>
+        <label>
+          <input type="radio" name="prefer2" value="donuts" checked>
+          Donuts
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="perfer2" value="pie">
+          Pie
+        </label>
+      </div>
+      <br>
+      <br>
+      <div id="secondquestion">
         <p>What kind of organization interests you most?</p> 
-        <select id="web-path">
+        <select id="traditional-startup">
           <option value="traditional">Traditional Enterprises</option>
           <option value="start-up">Start-Ups</option>
         </select>
         </div>
       <br>
       <br>
-      <div id="mobile-path">
+      <div id="thirdquestion">
         <p>What platform do you want to focus on?</p> 
-        <select id="mobile-path">
+        <select id="ios-android">
           <option value="ios">iOS</option>
           <option value="android">Android</option>
         </select>
         </div>
+        <br>
+        <br>
+        <div id="fourthquestion">
+          <p>What platform do you want to focus on?</p> 
+          <select id="mobile-path">
+            <option value="ios">iOS</option>
+            <option value="android">Android</option>
+          </select>
+          </div>
+          <div id="fifthquestion">
+            <p>What platform do you want to focus on?</p> 
+            <select id="mobile-path">
+              <option value="ios">iOS</option>
+              <option value="android">Android</option>
+            </select>
+            </div>
         <br>
         <br>
       <button type="submit" class="btn btn-dark">What language should I learn?</button>
